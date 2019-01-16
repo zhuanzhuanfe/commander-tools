@@ -1,5 +1,7 @@
 # @zz-biz/tools@0.0.4
 
+更新日志：[changelog](CHANGELOG.md)
+
 ## 功能
 
 ```bash
