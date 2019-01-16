@@ -1,6 +1,6 @@
 {
   "name": "@zz-biz/tools",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "打包工具能力",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.zhuanspirit.com/zz-fe/module-tools"
+    "url": "http://gitlab.zhuanspirit.com/zz-fe/zz-tools"
   },
   "bin": {
     "zz-tools": "./bin/zz-tools.js",
@@ -27,7 +27,7 @@
     "demo",
     "jsdoc.json"
   ],
-  "peerDependencies": {
+  "dependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.1.4",
     "babel-plugin-add-module-exports": "^0.2.1",
