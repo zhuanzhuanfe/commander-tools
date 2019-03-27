@@ -19,10 +19,21 @@ $ zz-tools run pub
 $ zz-tools run pub-beta
 # 删除gitlab及npm包对应版本代码
 $ zz-tools run unpub
-# 打开开发文档在浏览器中运行
-$ zz-tools run doc
-# 编译开发文档
+# 打开开发文档在浏览器中运行（此命令任何项目都适用）
+$ zz-tools run doc 
+# 编译开发文档（此命令任何项目都适用）
 $ zz-tools run build-doc
-# 上传文档到ftp
+# 上传文档到ftp（此命令任何项目都适用）
 $ zz-tools run doc-upload
+```
+
+## 使用示例
+
+```javascript
+// package.json
+"scripts": {
+  "doc": "zz-tools run doc",
+  "build-doc": "zz-tools run build-doc",
+  "upload-doc": "zz-tools run doc-upload"
+}
 ```
