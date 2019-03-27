@@ -1,6 +1,6 @@
 {
   "name": "@zz-biz/tools",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "打包工具能力",
   "main": "index.js",
   "scripts": {
