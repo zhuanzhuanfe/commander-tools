@@ -1,6 +1,6 @@
-# @zz-biz/tools@0.0.4
+# @zz-biz/tools@1.0.8
 
-更新日志：[changelog](CHANGELOG.md)
+更新日志：<a href="http://gitlab.zhuanspirit.com/zz-fe/zz-tools/blob/master/CHANGELOG.md" target="_blnak">CHANGELOG.md</a>
 
 ## 功能
 

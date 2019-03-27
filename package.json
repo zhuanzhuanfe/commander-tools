@@ -4,7 +4,8 @@
   "description": "打包工具能力",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --inline --public --config lib/webpack.dev.config.js"
+    "dev": "webpack-dev-server --inline --public --config lib/webpack.dev.config.js",
+    "upload-doc": "./bin/zz-tools-run.js doc-upload"
   },
   "repository": {
     "type": "git",
