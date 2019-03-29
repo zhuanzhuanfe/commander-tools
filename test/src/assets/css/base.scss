@@ -1,0 +1,34 @@
+@function pxToRem($px) {
+  @if unit($px) == '%' {
+    @return $px;
+  }
+  @return $px / 75px * 1rem;
+}
+
+@function pxRem($px) {
+  @return $px / 75 * 1rem;
+}
+
+@mixin font-dpr($fontSize){
+  font-size: $fontSize;
+
+  [data-dpr="2"] & {
+      font-size: $fontSize * 2;
+  }
+
+  [data-dpr="3"] & {
+      font-size: $fontSize * 3;
+  }
+}
+
+@mixin border-width-dpr($width){
+  border-width: $width;
+
+  [data-dpr="2"] & {
+    border-width: $width * 2;
+  }
+
+  [data-dpr="3"] & {
+    border-width: $width * 3;
+  }
+}

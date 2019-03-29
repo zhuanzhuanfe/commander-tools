@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	margin:0;
+	padding:0
+}
+body{
+  font: 12px/1.5 "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+}
+input,select,textarea {
+    font-size: 100%;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ul,li,ol {
+    list-style: none
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+em,i{
+    font-style: normal;
+}
+
+fieldset,img {
+    border: 0
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button{
+  outline: none;
+  border: none;
+}
+html,div,p,ul,li,form,span,h2,h3,h4 {
+  word-wrap:break-word;
+  word-break:break-all;
+}

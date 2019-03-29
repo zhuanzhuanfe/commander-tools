@@ -1,0 +1,35 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "modules": false,
+      "targets": {
+        "uglify": true
+      },
+      "corejs": 2,
+      "debug": false,
+      "useBuiltIns": "entry"
+    }]
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@babel/plugin-proposal-function-sent",
+    "@babel/plugin-proposal-export-namespace-from",
+    "@babel/plugin-proposal-numeric-separator",
+    "@babel/plugin-proposal-throw-expressions",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-syntax-import-meta",
+    ["@babel/plugin-proposal-class-properties", { "loose": false }],
+    "@babel/plugin-proposal-json-strings",
+    ["@babel/plugin-transform-runtime", {
+      "corejs": 2
+    }],
+    ["import", {
+      "libraryName": "@zz/lego"
+    }, "@zz/lego"],
+    ["component", {
+        "libraryName": "mint-ui",
+        "style": true
+    }],
+    "@vue/babel-plugin-transform-vue-jsx"
+  ]
+}
