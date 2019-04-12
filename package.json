@@ -1,6 +1,6 @@
 {
-  "name": "@zz-biz/tools",
-  "version": "1.0.8",
+  "name": "@zz/commander-tools",
+  "version": "1.0.0",
   "description": "打包工具能力",
   "main": "index.js",
   "scripts": {
@@ -12,15 +12,16 @@
     "url": "http://gitlab.zhuanspirit.com/zz-fe/zz-tools"
   },
   "bin": {
-    "zz-tools": "./bin/zz-tools.js",
-    "zz-tools-run": "./bin/zz-tools-run.js"
+    "commander-tools": "./bin/zz-tools.js",
+    "commander-tools-run": "./bin/zz-tools-run.js"
   },
   "keywords": [
     "sdk",
     "module",
-    "tool"
+    "tool",
+    "commander"
   ],
-  "author": "yuanxiaolong@zhuanzhuan.com",
+  "author": "luoxue@zhuanzhuan.com",
   "files": [
     "lib",
     "bin",
