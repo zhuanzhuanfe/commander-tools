@@ -1,6 +1,6 @@
 {
-  "name": "@zz-base/commander-tools",
-  "version": "1.0.0-beta9",
+  "name": "@zz-common/commander-tools",
+  "version": "1.0.5",
   "description": "打包工具能力",
   "main": "index.js",
   "scripts": {
