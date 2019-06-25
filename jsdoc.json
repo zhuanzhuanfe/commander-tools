@@ -1,25 +1,26 @@
 {
   "tags": {
-      "allowUnknownTags": true,
-      "dictionaries": ["jsdoc"]
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc"]
   },
   "source": {
-      "include": ["README.md"],
-      "includePattern": ".js$",
-      "excludePattern": "(node_modules/dist)"
+    "include": ["README.md"],
+    "includePattern": "(.js|.ts)$",
+    "excludePattern": "(node_modules/dist)"
   },
   "plugins": [
-      "plugins/markdown"
+    "plugins/markdown"
   ],
   "templates": {
-      "cleverLinks": true,
-      "monospaceLinks": true
+    "cleverLinks": true,
+    "monospaceLinks": true
   },
   "opts": {
-      "destination": "./docs",
-      "encoding": "utf8",
-      "private": true,
-      "recurse": true,
-      "template": "./node_modules/postman-jsdoc-theme"
+    "destination": "./docs",
+    "encoding": "utf8",
+    "private": true,
+    "recurse": true,
+    "template": "./node_modules/postman-jsdoc-theme"
   }
 }
+  

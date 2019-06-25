@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "打包工具能力",
   "main": "index.js",
   "scripts": {
@@ -100,5 +100,8 @@
     "clean-webpack-plugin": "^2.*"
   },
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2"
+  }
 }
