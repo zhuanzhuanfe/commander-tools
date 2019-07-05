@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "打包工具能力",
   "main": "index.js",
   "scripts": {
@@ -51,6 +51,7 @@
     "css-loader": "^2.1.1",
     "current-git-branch": "^1.1.0",
     "deep-assign": "^2.0.0",
+    "deepmerge": "^3.3.0",
     "eruda-webpack-plugin": "^1.2.0",
     "git-repo-name": "^1.0.1",
     "gulp": "^3.9.1",
@@ -64,10 +65,10 @@
     "merge2": "^1.2.2",
     "mini-css-extract-plugin": "^0.4.1",
     "npm-name-exists": "^1.0.4",
+    "open": "^6.1.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "ora": "^2.1.0",
     "postcss-loader": "^3.0.0",
-    "open": "^6.1.0",
     "postman-jsdoc-theme": "0.0.3",
     "remote-origin-url": "^2.0.0",
     "rimraf": "^2.6.2",
