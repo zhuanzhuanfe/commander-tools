@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "打包工具能力",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.zhuanspirit.com/zz-fe-base/commander-tools"
+    "url": "http://gitlab.zhuanspirit.com/zz-fe-common/commander-tools"
   },
   "bin": {
     "commander-tools": "./bin/zz-tools.js",
@@ -21,7 +21,7 @@
     "tool",
     "commander"
   ],
-  "author": "luoxue@zhuanzhuan.com",
+  "author": "huangjiaxing@zhuanzhuan.com",
   "files": [
     "lib",
     "bin",
