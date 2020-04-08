@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "npm打包工具",
   "main": "index.js",
   "scripts": {
@@ -51,7 +51,7 @@
     "deepmerge": "^3.3.0",
     "eruda-webpack-plugin": "^1.2.0",
     "git-repo-name": "^1.0.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-jsdoc3": "^2.0.0",
     "gulp-replace": "^1.0.0",
