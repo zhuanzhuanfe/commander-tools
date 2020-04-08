@@ -24,6 +24,6 @@
 
 * 升级到 gulp 4。语法上有如下区别
   - 依赖任务使用 `gulp.series` 语法
-  - 依赖任务需要在指定任务之后定义
+  - 依赖任务需要在指定任务之前定义
   - 需要指定 `task` 结束
   - 废弃 `start` 方法：`gulp.start(task)` 改为 `gulp.series(task)()`
