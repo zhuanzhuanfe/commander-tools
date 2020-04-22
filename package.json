@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "npm打包工具",
   "main": "index.js",
   "scripts": {
@@ -36,7 +36,6 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-decorators": "^7.8.3",
     "@babel/runtime-corejs2": "^7.8.7",
-    "core-js": "^3.6.5",
     "babel-loader": "^8.0.6",
     "babel-plugin-import": "^1.11.0",
     "browser-sync": "^2.26.3",
