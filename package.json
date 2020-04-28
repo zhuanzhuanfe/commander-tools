@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "npm打包工具",
   "main": "index.js",
   "scripts": {
