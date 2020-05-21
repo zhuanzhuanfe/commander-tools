@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "3.0.0-alpha.1",
+  "version": "3.0.0-alpha.2",
   "description": "npm打包工具",
   "main": "index.js",
   "scripts": {
@@ -25,8 +25,7 @@
   "files": [
     "lib",
     "bin",
-    "package.json",
-    "jsdoc.json"
+    "package.json"
   ],
   "dependencies": {
     "@babel/core": "^7.8.7",
@@ -59,6 +58,7 @@
     "html-webpack-plugin": "^4.0.0-beta.5",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
+    "lint-staged": "^10.2.4",
     "merge2": "^1.2.2",
     "mini-css-extract-plugin": "^0.4.1",
     "npm-name-exists": "^1.0.4",
