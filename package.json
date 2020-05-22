@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "3.0.0-alpha.3",
+  "version": "3.0.0-alpha.4",
   "description": "npm打包工具",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "@babel/core": "^7.8.7",
     "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.8.7",
-    "@zz-common/vue-cli-plugin-commitlint": "^2.0.1",
+    "@zz-common/vue-cli-plugin-commitlint": "^2.0.2",
     "babel-loader": "^8.0.6",
     "babel-plugin-import": "^1.11.0",
     "browser-sync": "^2.26.3",
@@ -39,8 +39,6 @@
     "chalk": "^2.4.1",
     "colorful": "^2.1.0",
     "commander": "^2.9.0",
-    "commitizen": "^4.1.2",
-    "commitlint": "^8.3.5",
     "cross-spawn": "^6.0.5",
     "css-loader": "^2.1.1",
     "current-git-branch": "^1.1.0",
