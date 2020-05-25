@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "3.0.0-alpha.9",
+  "version": "3.0.0-alpha.10",
   "description": "npm打包工具",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   "files": [
     "lib",
     "bin",
+    "demo",
     "package.json"
   ],
   "dependencies": {
