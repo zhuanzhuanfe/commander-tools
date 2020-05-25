@@ -3,6 +3,13 @@
 ## 功能
 
 ```bash
+# eslint 校验
+$ commander-tools run lint
+# eslint 校验并修复
+$ commander-tools run lint --fix
+# eslint 校验暂存区的文件
+$ commander-tools run lint --staged
+
 # 本地开发模式
 $ commander-tools run dev
 
@@ -12,9 +19,9 @@ $ commander-tools run compile
 # 编译代码，外链形式
 $ commander-tools run dist
 # 编译代码，单文件形式
-$ commander-tools run dist -s
+$ commander-tools run dist --single
 # 编译代码，分析模式
-$ commander-tools run dist -a
+$ commander-tools run dist --analyz
 
 # 打包编译，集成 compile, dist 和 build-doc
 $ commander-tools run build
