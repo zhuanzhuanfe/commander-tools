@@ -26,6 +26,7 @@
     "lib",
     "bin",
     "demo",
+    "jsdoc.json",
     "package.json"
   ],
   "dependencies": {
