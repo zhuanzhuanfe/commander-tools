@@ -12,7 +12,7 @@
 $ npm i -D @zz-common/commander-tools
 ```
 
-### 使用
+### 配置
 
 在 `package.json` 的 `scripts` 配置中添加如下指令，即可使用
 
@@ -125,15 +125,17 @@ $ commander-tools run unpub
 
 ### commitlint
 
-配合 `husky` 使用，则能更好的在每次提交代码前校验本次修改的代码和 `commit` 信息，确保代码稳定和 `commit` 规范。`commander-tools` 也内置了相关功能。
+配合 `husky` 使用，则能更好的在每次提交代码前校验本次修改的代码和 `commit` 信息，确保代码稳定和 `commit` 规范。
 
-安装 `husky`
+`commander-tools` 也内置了相关功能。
+
+1. 安装 `husky`
 
 ```bash
 $ npm i -D husky
 ```
 
-在 `package.json` 中添加如下配置：
+2. 在 `package.json` 中添加如下配置：
 
 ```json
 {
