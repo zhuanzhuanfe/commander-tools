@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "3.0.0-alpha.11",
+  "version": "3.0.0-alpha.12",
   "description": "npm打包工具",
   "main": "index.js",
   "scripts": {
@@ -64,6 +64,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
     "postman-jsdoc-theme": "0.0.3",
+    "prettier": "^2.0.5",
     "remote-origin-url": "^2.0.0",
     "rimraf": "^2.6.2",
     "rucksack-css": "^1.0.2",
