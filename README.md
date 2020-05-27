@@ -17,7 +17,6 @@ $ npm i -D @zz-common/commander-tools
 在 `package.json` 的 `scripts` 配置中添加如下指令，即可使用
 
 ```json
-// package.json
 {
   "scripts": {
     "lint": "commander-tools run lint",
@@ -108,7 +107,6 @@ $ commander-tools run unpub
 `commander-tools` 也集成了友好的问答式 `git commit` 指令，帮助提高基础库开发的 `commit` 规范，只需在 `package.json` 中添加如下配置：
 
 ```json
-// package.json
 {
   "scripts": {
     "cz": "git cz -a"
@@ -129,12 +127,15 @@ $ commander-tools run unpub
 
 配合 `husky` 使用，则能更好的在每次提交代码前校验本次修改的代码和 `commit` 信息，确保代码稳定和 `commit` 规范。`commander-tools` 也内置了相关功能。
 
+安装 `husky`
+
 ```bash
 $ npm i -D husky
 ```
 
+在 `package.json` 中添加如下配置：
+
 ```json
-// package.json
 {
   "husky": {
     "hooks": {
