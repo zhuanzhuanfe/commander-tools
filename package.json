@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "3.0.0-alpha.13",
+  "version": "3.0.0-alpha.14",
   "description": "npm打包工具",
   "main": "index.js",
   "scripts": {
@@ -70,7 +70,9 @@
     "rucksack-css": "^1.0.2",
     "simple-progress-webpack-plugin": "^1.1.2",
     "style-loader": "^0.23.1",
+    "ts-loader": "^7.0.4",
     "through2": "^2.0.3",
+    "typescript": "^3.5.2",
     "uglifyjs-webpack-plugin": "^2.1.2",
     "vinyl-ftp": "^0.6.1",
     "webpack": "^4.29.6",
@@ -80,8 +82,7 @@
     "webpack-merge": "^4.2.1"
   },
   "license": "ISC",
-  "devDependencies": {
-    "ts-loader": "^6.0.4",
-    "typescript": "^3.5.2"
+  "peerDependencies": {
+    "core-js": "^3.6.5"
   }
 }
