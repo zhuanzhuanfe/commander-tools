@@ -22,6 +22,7 @@ $ npm i -D @zz-common/commander-tools
     "lint": "commander-tools run lint",
     "fix": "commander-tools run lint --fix",
     "staged": "commander-tools run lint --staged",
+    "staged-fix": "commander-tools run lint --staged --fix",
     "dev": "commander-tools run dev",
     "compile": "commander-tools run compile",
     "dist": "commander-tools run dist",
@@ -48,6 +49,8 @@ $ commander-tools run lint
 $ commander-tools run lint --fix
 # eslint 校验暂存区的文件
 $ commander-tools run lint --staged
+# eslint 校验并修复暂存区的文件
+$ commander-tools run lint --staged --fix
 ```
 
 ### 本地调试
