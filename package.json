@@ -1,6 +1,6 @@
 {
   "name": "@zz-common/commander-tools",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "npm打包工具",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
     "commander"
   ],
   "author": "huangjiaxing@zhuanzhuan.com",
+  "license": "ISC",
   "files": [
     "lib",
     "bin",
@@ -81,8 +82,8 @@
     "webpack-dev-server": "^3.2.1",
     "webpack-merge": "^4.2.1"
   },
-  "license": "ISC",
   "peerDependencies": {
+    "@babel/runtime": "^7.8.3",
     "core-js": "^3.6.5"
   }
 }
