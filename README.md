@@ -1,4 +1,4 @@
-# @zz-common/commander-tools
+# zz-commander-tools
 
 `commander-tools` 是转转 FE 团队的基础库开发工具，集成了基础库开发过程中常用的本地调试、编译、打包、生成文档、发版等功能。
 
@@ -9,7 +9,7 @@
 ### 安装
 
 ```bash
-$ npm i -D @zz-common/commander-tools
+$ npm i -D zz-commander-tools
 ```
 
 ### 配置
