@@ -116,7 +116,7 @@ $ commander-tools run unpub
   },
   "config": {
     "commitizen": {
-      "path": "@zz-common/commander-tools/lib/config/commitizen.config"
+      "path": "zz-commander-tools/lib/config/commitizen.config"
     }
   },
 }
