@@ -1,6 +1,6 @@
 {
   "name": "zz-commander-tools",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "npm打包工具",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.8.7",
     "@babel/preset-typescript": "^7.14.5",
-    "@zz-common/vue-cli-plugin-commitlint": "^2.0.6",
+    "zz-vue-cli-plugin-commitlint": "^1.0.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-import": "^1.11.0",
